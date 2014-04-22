@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="read_more.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				readmore.init();
+			});
+		</script>
+	</head>
+	<body>
+		<h3>Read more with <b>&lt;ul&gt;</b> element</h3>
+			<ul class="readMoreApply" data-show="5">
+				<li> Element 1 </li>
+				<li> Element 2 </li>
+				<li> Element 3 </li>
+				<li> Element 4 </li>
+				<li> Element 5 </li>
+				<li> Element 6 </li>
+				<li> Element 7 </li>
+				<li> Element 8 </li>
+				<li> Element 9 </li>
+				<li> Element 10 </li>
+				<li> Element 11 </li>
+				<li> Element 12 </li>
+				<li> Element 13 </li>
+				<li> Element 14 </li>
+			</ul>
+		<br/><br/>
+
+		<h3>Read more with <b>&lt;div&gt;</b> element</h3>
+			<div class="readMoreApply" data-show="2">
+				<div>div one</div>
+				<div>div one</div>
+				<div>div one</div>
+				<div>div onediv one</div>
+				<div>div one</div>
+				<div>div one</div>
+				<div>div one</div>
+			</div>
+		<br/><br/>
+
+		<h3>Read more with <b>normal pera</b></h3>
+			<div class="readMoreApply" data-show="10" style="width: 200px;">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			</div>
+		<br/><br/>
+
+		<h3>Read more will not apply if element total height is less than accepted height</h3>
+		<ul class="readMoreApply" data-show="10">
+			<li> Element 1 </li>
+			<li> Element 2 </li>
+			<li> Element 3 </li>
+		</ul>
+	</body>
+</html>
